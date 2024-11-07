@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/googledoc.jpg";
 import project2 from "../assets/projects/Coffeeapp.jpg";
 import project3 from "../assets/projects/aivoice.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `I'm a passionate full-stack developer with a Computer Science degree, skilled in React, Node.js, and PostgreSQL. I create robust, user-focused applications that prioritize performance and seamless functionality. Passionate about technology and continuous learning, I’m driven to build solutions that make an impact.`;
 
