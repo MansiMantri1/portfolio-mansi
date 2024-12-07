@@ -51,6 +51,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+1 (508)-769-1511 ",
+ 
   email: "masnimantri902@gmail.com",
 };

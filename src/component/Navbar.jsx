@@ -7,19 +7,26 @@ import { FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-   <nav className="  mb-20 flex itmes-center justify-between py-6">
-   <div className="flex flex-shrink-0 items-center">
-    <img className="mx-1" src={logo} alt="logo" style={{ width: "80px", height: "auto" }} />
-</div>
+    <nav className="mb-20 flex items-center justify-between py-6">
+      <div className="flex flex-shrink-0 items-center">
+        <img className="mx-1" src={logo} alt="logo" style={{ width: "80px", height: "auto" }} />
+      </div>
 
-    <div className="m-8 flex item-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaSquareXTwitter/>
-        <FaInstagram/>
-    </div>
-   </nav>
+      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <a 
+          href="https://www.linkedin.com/in/mansi-mantri-43b126216/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="hover:text-blue-500 transition-colors duration-300"
+        >
+          <FaLinkedin />
+        </a>
+        {/* <FaGithub />
+        <FaSquareXTwitter />
+        <FaInstagram /> */}
+      </div>
+    </nav>
   )
 }
 
-export default Navbar
+export default Navbar;
